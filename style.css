@@ -1,0 +1,272 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+/* -------------------  Container-1  ------------------------- */
+.navbar
+{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgb(3, 3, 3,0.5),rgb(3, 3, 3,0.5)),url('images/front.jpg');
+    background-size: cover;
+    position: relative;
+}
+.nav-1
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1% 3%;
+}
+.nav1
+{
+    background: rgb(27, 31, 255);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.nav1 h2
+{
+    padding-left: 75px;
+    color: rgb(27, 31, 255);
+    font-size: 40px;
+}
+.nav2 button
+{
+    padding: 10px 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    background: rgb(27, 31, 255);
+    border: none;
+    border-radius: 10px;
+}
+.learn
+{
+    text-align: center;
+    margin-top: 10%;
+    color: #fff;
+}
+.learn h1
+{
+    font-size: 58px;
+    font-weight: 530;
+}
+.learn p
+{
+    font-size: 24px;
+}
+.learn button
+{
+    margin-top: 30px;
+    padding: 20px 180px;
+    font-size: 24px;
+    background: rgb(27, 31, 255);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+/* -------------------    Container-2        --------------------- */
+.container
+{
+    width: 100%;
+    height: 60vh;
+    background: linear-gradient(rgb(228, 228, 228),rgba(228,228, 228));
+}
+.submenu
+{
+    display: flex;
+    padding-top: 5%;
+    margin: 0 10%;
+    justify-content: space-between;
+}
+.sub1 p
+{
+    font-size: 14px;
+    color: rgb(77, 77, 77);
+    font-weight: bold;
+}
+.sub1 h1
+{
+    font-size: 48px;
+    font-weight: 400;
+}
+.sub2 
+{
+    padding-top: 37px;
+    color: #444;
+    font-size: 18px;
+}
+/* -------------------    Container-3   ------------------------- */
+.container-1
+{
+    width: 100%;
+    height: 40vh;
+    background: #fff;
+}
+.submenu-1
+{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+.sab
+{
+    text-align: left;
+    margin: 1% ;
+    padding: 50px 55px;
+    background: #fff;
+}
+.sab p
+{
+    color: #777;
+}
+.circle
+{
+    margin-left: 20px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 8px #fff, 0px 0px 0px 16px #48dbfb, 0px 0px 0px 26px rgb(27, 31, 255);
+    width: 4px;
+    height:4px;
+    background: #fff;
+    border: none;
+}
+/* ------------------   Container-4   -------------------- */
+.container-2
+{
+    width: 100%;
+    height: 70vh;
+    background: linear-gradient(rgb(3, 3, 3,0.5),rgb(3, 3, 3,0.5)),url('images/mid.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    color: #fff;
+    justify-content: space-around;
+    align-items: center;
+}
+.sab3 p
+{
+    font-size: 14px;
+}
+.sab3 h1
+{
+    font-size: 48px;
+}
+.sab4 p
+{
+    font-size: 20px;
+}
+/* ---------------------  Container-5    ------------------------ */
+.container-4
+{
+    width: 100%;
+    height: 70vh;
+    background: linear-gradient(rgb(228, 228, 228),rgba(228,228, 228));
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sab5
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container-4 .sab5 .sab6
+{
+    background: #fff;
+    padding: 20px;
+}
+.container-4 .sab5 img
+{
+    width: 150px;
+    height: 200px;
+}
+/* ----------------container - 6---------------- */
+.container-5
+{
+    width: 100%;
+    height: 75vh;
+    background: #fff;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sub7
+{
+    padding: 15px 30px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    color: #777;
+}
+.sub7 p
+{
+    padding-top: 20px;
+}
+.sub7 h3
+{
+    margin-top: 10%;
+    margin-bottom: 10px;
+}
+.sub7 ul li
+{
+    list-style-type: none;
+    padding: 10px 0;
+}
+.sub7 .nav1
+{
+    background: #1e90ff;
+}
+.sub7 .nav1 h2
+{
+    color: #1e90ff;
+}
+.sub7 hr
+{
+    color: #808080;
+}
+.sub7 hr
+{
+    width: 110%;
+}
+.sub7:nth-child(3)
+{
+    padding-top: 10px;
+}
+.social-media ul 
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.social-media ul li i
+{
+    color: #1e90ff;
+}
+/* -----------------  Container-7  ------------------- */
+.container-6
+{
+    width: 100%;
+    height: 30vh;
+    background: linear-gradient(rgb(228, 228, 228),rgba(228,228, 228));
+}
+.sub8 ul
+{
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+.sub8 ul li
+{
+    list-style-type: none;
+    color: #222;
+}
+.sub9
+{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    color: #777;
+    font-size: 12px;
+}
